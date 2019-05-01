@@ -1,0 +1,31 @@
+{
+  "name": "webpack-demo",
+  "version": "1.0.0",
+  "description": "an easy scss + babel parse webpack demo.",
+  "scripts": {
+    "start": "webpack --open --mode development --watch",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mgss/webpack-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mgss/webpack-demo/issues"
+  },
+  "homepage": "https://github.com/mgss/webpack-demo#readme",
+  "devDependencies": {
+    "css-loader": "^2.1.1",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.11"
+  }
+}
